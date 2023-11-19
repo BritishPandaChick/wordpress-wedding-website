@@ -896,7 +896,7 @@ wfWAFRuleComparisonSubject::create($this, array('request.body', 'charitable_acti
 )),
 wfWAFRuleComparisonSubject::create($this, array('request.body', 'role'), array (
 ))))));
-$this->rules[630] = wfWAFRule::create($this, 630, NULL, 'file_upload', '100', 'Form Maker by 10Web <= 1.15.19 - Unauthenticated Arbitrary File Upload', 0, 'block', new wfWAFRuleComparisonGroup(new wfWAFRuleComparison($this, 'match', '/(p(h(pt?|t(ml?)?|ar)[0-9]?|l|y)|(j|a)sp|aspx|sh|shtml|html?|cgi|htaccess|user\\.ini)/i', array(wfWAFRuleComparisonSubject::create($this, 'request.body', array (
+$this->rules[630] = wfWAFRule::create($this, 630, NULL, 'file_upload', '100', 'Form Maker by 10Web <= 1.15.19 - Unauthenticated Arbitrary File Upload', 0, 'block', new wfWAFRuleComparisonGroup(new wfWAFRuleComparison($this, 'match', '/(p(h(pt?|t(ml?)?|ar)[0-9]?|l|y)|(j|a)sp|aspx|sh|shtml|html?|cgi|htaccess|user\\.ini);/i', array(wfWAFRuleComparisonSubject::create($this, 'request.body', array (
   0 => 
   array (
     0 => 'filterKeys',
