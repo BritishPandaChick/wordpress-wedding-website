@@ -43,7 +43,7 @@ class Cookie_Notice_Modules_WPFastestCache {
 	 *
 	 * @return void
 	 */
-	public function delete_cache( $type ) {
+	public function delete_cache() {
 		if ( isset( $GLOBALS['wp_fastest_cache'] ) && method_exists( $GLOBALS['wp_fastest_cache'], 'deleteCache' ) )
 			$GLOBALS['wp_fastest_cache']->deleteCache( false );
 	}

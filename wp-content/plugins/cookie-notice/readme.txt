@@ -2,9 +2,9 @@
 Contributors: humanityco
 Tags: gdpr, ccpa, cookies, consent, compliance, privacy
 Requires at least: 4.9.6
-Requires PHP: 5.4
+Requires PHP: 7.4
 Tested up to: 6.4.1
-Stable tag: 2.4.12
+Stable tag: 2.4.13
 License: MIT License
 License URI: http://opensource.org/licenses/MIT
 
@@ -120,6 +120,9 @@ Yes! The plugin + web appliaction version includes technical compliance features
 4. Cookie Compliance settings
 
 == Changelog ==
+
+= 2.4.13 =
+* Fix: Removed unneeded parameter from WP Fastest Cache compatibility fix
 
 = 2.4.12 =
 * New: WP Optimize caching plugin compatibility
@@ -489,6 +492,5 @@ Initial release
 
 == Upgrade Notice ==
 
-= 2.4.12 =
-* New: WP Optimize caching plugin compatibility
-* Fix: WP Fastest Cache plugin compatibility
+= 2.4.13 =
+* Fix: Removed unneeded parameter from WP Fastest Cache compatibility fix
